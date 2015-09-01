@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class Fibonacci {
 
-	static HashMap<Integer, Integer> dictionary = new HashMap<Integer, Integer>();
+	private static HashMap<Integer, Integer> dictionary = new HashMap<Integer, Integer>();
 
 	static {
 		dictionary.put(1, 0);
